@@ -13,6 +13,11 @@ h6 {
   font-weight: 700;
 }
 
+p{
+  text-align: justify;
+  font-size: 19px;
+
+}
 
 .menu{
   background-color:#870404;
@@ -120,7 +125,7 @@ header.masthead h1 {
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
-.call-to-action {
+.contactoa {
   position: relative;
   background-color: #343a40;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
@@ -129,7 +134,7 @@ header.masthead h1 {
   padding-bottom: 7rem;
 }
 
-.call-to-action .overlay {
+.contactoa .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
