@@ -16,6 +16,8 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  
+ 
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.css" rel="stylesheet">
@@ -281,16 +283,85 @@
     </div>
   </section>
 
-  <!-- contactos  -->
-  <section class="contactoa text-white text-center" id="contactoa">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        formulario pendiente
-       
-      </div>
+
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container text-center">
+
+    <div class="section-title">
+      <h2>Medios de Contacto</h2>
+      <p class="text-center"> Será un placer ayudarte </p>
     </div>
-  </section>
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6 info" data-aos="fade-up">
+            <i class="bx bx-map"></i>
+            <h4>Direccion</h4>
+            <p class="text-left">Liverpool Juárez Cuauhtémoc, Distrito Federal, 06600 Mexico </p>
+          </div>
+          <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="100">
+            <i class="bx bx-phone"></i>
+            <h4>Telefono</h4>
+            <p>
+              Local: 5575848797 <br>
+              Local2: 49792221 <br>
+              Móvil: 43280034
+            </p>
+          </div>
+          <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="200">
+           
+            <h4>Email</h4>
+            <p> avaluospmexico@gmail.com </p>
+          </div>
+          <div class="col-lg-6 info" data-aos="fade-up" data-aos-delay="300">
+         
+            <h4>Horario</h4>
+            <p class="text-left">
+              Lun-Vie: 9:00 am-19:00pm <br>
+              Sab-Dom: 10:00 am-15:00pm 
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
+          <div class="form-group">
+            <input placeholder="Nomrbre completo" type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Por favor ingresa nombre" />
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <input placeholder="Tu Email" type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor ingresa email " />
+            <div class="validate"></div>
+          </div>
+       <!--<div class="form-group">
+            <input placeholder="Subject" type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+            <div class="validate"></div>
+          </div> -->
+          <div class="form-group">
+            <textarea placeholder="Mensage" class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor ingresa tu mensaje"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Enviando</div>
+            <div class="error-message">Hay un problema para enviar tu mensaje</div>
+            <div class="sent-message">Tu mensaje a sido ennviado</div>
+          </div>
+          <div class="text-center"><button type="submit">Enviar</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+
 
   <!-- Footer -->
   <footer class="footer bg-light">
