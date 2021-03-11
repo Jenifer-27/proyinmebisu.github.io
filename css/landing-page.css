@@ -155,11 +155,21 @@ footer.footer {
 }
 
 
+.aliados{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+}
+.imgaliados{
+  width: 100%;
+  text-align: center;
+}
+
 /******************/
 
 
 /*--------------------------------------------------------------
-# Contact
+# Contacto
 --------------------------------------------------------------*/
 .contact .info {
   padding: 20px 40px;
