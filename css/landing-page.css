@@ -1,10 +1,11 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
 }
-
+/*   background-color:#870404; */
 .logonav{
-  width: 70px;
+  width: 50px;
 }
 
 h1,
@@ -19,24 +20,10 @@ h6 {
 
 p{
   text-align: justify;
-  font-size: 19px;
+  font-size: 20px;
 
 }
 
-.menu{
-  background-color:#870404;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  height: 6%;
-
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  z-index: 1;
- 
-
-
-}
 .nav-link, .navbar-brand{
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -95,7 +82,7 @@ header.masthead h1 {
 
 
 .imgacerca{
-  width: 100%;
+  width: 80%;
 }
 
 @media (min-width: 768px) {
@@ -128,15 +115,6 @@ header.masthead h1 {
 .servicios {
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.servicios .testimonial-item {
-  max-width: 18rem;
-}
-
-.servicios .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
 .contact {
