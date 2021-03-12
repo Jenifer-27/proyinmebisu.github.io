@@ -25,10 +25,13 @@ p{
 }
 
 .navbar{
-  color: #fff;
-  text-decoration: none;
+
   background-color:#870404;
 
+}
+
+.nav-link{
+  color: #fff;
 }
 
  .navbar-brand:hover{
