@@ -30,6 +30,17 @@ p{
 
 }
 
+.btn{
+  background-color:#870404;
+  border-color: #870404 ;
+}
+
+.btn:hover{
+  background-color:#fff;
+  border-color: #870404 ;
+  color: black;
+}
+
 .nav-link{
   color: #fff;
 }
